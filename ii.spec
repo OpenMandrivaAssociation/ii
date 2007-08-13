@@ -1,5 +1,5 @@
 %define name ii
-%define version 1.1
+%define version 1.3
 %define release %mkrel 1
 
 Name:		%name
@@ -44,6 +44,6 @@ make PREFIX=$RPM_BUILD_ROOT%{_prefix} install
 %defattr(-,root,root)
 %doc README LICENSE FAQ query.sh
 %{_bindir}/%{name}
-%{_mandir}/man1/%{name}.1.bz2
+%{_mandir}/man1/%{name}.1*
 
 
