@@ -8,6 +8,7 @@ Release:	%release
 Group:		Networking/Other
 URL:		http://www.suckless.org/wiki/tools/irc
 License:	MIT
+BuildRoot:	%{_tmppath}/%{name}-root
 Source0:	http://www.suckless.org/download/%{name}-%{version}.tar.gz
 Summary:	irc it (ii) is a minimalist FIFO and filesystem-based IRC client
 %description
