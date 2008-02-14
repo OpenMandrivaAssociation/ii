@@ -10,7 +10,7 @@ URL:		http://www.suckless.org/wiki/tools/irc
 License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
 Source0:	http://www.suckless.org/download/%{name}-%{version}.tar.gz
-Summary:	irc it (ii) is a minimalist FIFO and filesystem-based IRC client
+Summary:	Minimalist FIFO and filesystem-based IRC client
 %description
 ii is a minimalist FIFO and filesystem-based IRC client. It creates an
 irc directory tree with server, channel and nick name directories. In
