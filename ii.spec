@@ -1,12 +1,12 @@
 %define name ii
 %define version 1.3
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		%name
 Version:	%version
 Release:	%release
 Group:		Networking/Other
-URL:		http://www.suckless.org/wiki/tools/irc
+URL:		http://www.suckless.org/wiki/programs/ii.html
 License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
 Source0:	http://www.suckless.org/download/%{name}-%{version}.tar.gz
