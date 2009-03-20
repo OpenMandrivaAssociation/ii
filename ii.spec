@@ -1,15 +1,15 @@
 %define name ii
-%define version 1.3
-%define release %mkrel 4
+%define version 1.4
+%define release %mkrel 1
 
 Name:		%name
 Version:	%version
 Release:	%release
 Group:		Networking/Other
-URL:		http://www.suckless.org/wiki/programs/ii.html
+URL:		http://tools.suckless.org/ii
 License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
-Source0:	http://www.suckless.org/download/%{name}-%{version}.tar.gz
+Source0:	http://code.suckless.org/dl/tools/%{name}-%{version}.tar.gz
 Summary:	Minimalist FIFO and filesystem-based IRC client
 %description
 ii is a minimalist FIFO and filesystem-based IRC client. It creates an
@@ -45,5 +45,4 @@ make PREFIX=$RPM_BUILD_ROOT%{_prefix} install
 %doc README LICENSE FAQ query.sh
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
-
 
