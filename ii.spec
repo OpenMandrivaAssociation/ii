@@ -46,3 +46,42 @@ make PREFIX=$RPM_BUILD_ROOT%{_prefix} install
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.4-3mdv2011.0
++ Revision: 619612
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.4-2mdv2010.0
++ Revision: 437956
+- rebuild
+
+* Fri Mar 20 2009 Nicolas Vigier <nvigier@mandriva.com> 1.4-1mdv2009.1
++ Revision: 359083
+- version 1.4
+
+* Fri Feb 13 2009 Michael Scherer <misc@mandriva.org> 1.3-4mdv2009.1
++ Revision: 340023
+- new url
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.3-3mdv2009.0
++ Revision: 247212
+- rebuild
+
+* Thu Feb 14 2008 Thierry Vignaud <tv@mandriva.org> 1.3-1mdv2008.1
++ Revision: 168420
+- fix summary-not-capitalized
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Aug 13 2007 Nicolas Vigier <nvigier@mandriva.com> 1.3-1mdv2008.0
++ Revision: 62425
+- new version 1.3
+
+* Tue Jun 19 2007 Nicolas Vigier <nvigier@mandriva.com> 1.1-1mdv2008.0
++ Revision: 41290
+- Import ii
+
