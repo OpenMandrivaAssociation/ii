@@ -6,7 +6,7 @@ Name:		%name
 Version:	%version
 Release:	%release
 Group:		Networking/Other
-URL:		http://tools.suckless.org/ii
+URL:		https://tools.suckless.org/ii
 License:	MIT
 BuildRoot:	%{_tmppath}/%{name}-root
 Source0:	http://code.suckless.org/dl/tools/%{name}-%{version}.tar.gz
